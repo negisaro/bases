@@ -1,6 +1,6 @@
 
 
 export interface Character{
-  name: string,
-  power: number
+  name: string;
+  power: number;
 }

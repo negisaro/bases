@@ -17,11 +17,15 @@ export class MainPageComponent {
     },
     {
       name: 'Vegeta',
-      power: 7500
-    }
+      power: 7500,
+    },
   ];
 
-  onNewCharacter(charater: Character): void{
-    console.log(charater);
+  onNewCharacter(charater: Character): void {
+    this.characters.push(charater);
+  }
+
+  onDeleteCharacter(index: number) {
+    this.characters.splice(index, 1);
   }
 }

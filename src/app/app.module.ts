@@ -21,7 +21,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     CounterModule,
     HeroesModule,
-    DbzModule
+    DbzModule,
   ],
 
   providers: [],
